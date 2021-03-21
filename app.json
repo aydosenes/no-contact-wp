@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "No Contact Whatsapp",
+    "description": "Send Whatsapp Messages without saving the phone number to contacts.",
+    "slug": "no-contact-wp",
+    "owner":"aydoscs",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "privacy": "public",
+    "primaryColor": "#ffffff",
+    "platforms": ["ios", "android"],
+    "splash": {
+      "image": "./assets/wp-splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "icon": "./assets/ios-icon.png",
+      "supportsTablet": true
+    },
+    "android": {
+      "icon": "./assets/icon.png",
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.aydoscs.nocontactwp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": ["READ_PHONE_STATE", "CAMERA", "READ_CONTACTS", "RECORD_AUDIO"]
+    }
+  }
+}
